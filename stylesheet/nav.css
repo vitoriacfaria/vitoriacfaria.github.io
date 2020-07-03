@@ -1,0 +1,25 @@
+nav {
+  background-color: black;
+  color: white;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul > li {
+  float: left;
+  height: 100%;
+  padding: 10px;
+}
